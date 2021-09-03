@@ -1,4 +1,4 @@
 {
     "image": "aziotbld/embedded-codespace",
-    "postCreateCommand": "bash clone-repos.sh"
+    "postCreateCommand": "chmod+x clone-repos.sh && bash clone-repos.sh"
 }
