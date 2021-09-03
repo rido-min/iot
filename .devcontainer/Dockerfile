@@ -23,7 +23,7 @@ RUN git clone https://github.com/Microsoft/vcpkg.git ~/vcpkg && \
     ./bootstrap-vcpkg.sh && \
     ./vcpkg install --triplet x64-linux curl cmocka paho-mqtt && \
     echo 'export VCPKG_DEFAULT_TRIPLET=x64-linux' >> ~/.bashrc && \
-    echo 'export export VCPKG_ROOT=PATH_TO_VCPKG=~/vcpkg' >> ~/.bashrc
+    echo 'export VCPKG_ROOT=~/vcpkg' >> ~/.bashrc
 
 # [Optional] Uncomment this line to install global node packages.
 # RUN su vscode -c "source /usr/local/share/nvm/nvm.sh && npm install -g <your-package-here>" 2>&1
