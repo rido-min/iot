@@ -19,8 +19,10 @@
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
 		"ms-dotnettools.csharp",
-		"vsciot-vscode.vscode-dtdl"
+		"vsciot-vscode.vscode-dtdl",
+		"ms-vscode.cpptools"
 	],
+	
 	"postCreateCommand": "chmod +x clone-repos.sh && bash clone-repos.sh",
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
