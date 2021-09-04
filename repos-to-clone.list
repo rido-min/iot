@@ -1,8 +1,8 @@
+azure-samples/azure-iot-samples-csharp
 azure/azure-iot-sdk-node
 azure/azure-iot-sdk-python
 azure/azure-iot-sdk-csharp
 azure/azure-sdk-for-c
 azure/azure-sdk-for-js
 azure/azure-sdk-for-net
-azure-Samples/azure-iot-samples-node
-azure-Samples/azure-iot-samples-csharp
+azure-samples/azure-iot-samples-node
