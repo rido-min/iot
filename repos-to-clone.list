@@ -4,5 +4,5 @@ azure/azure-iot-sdk-python
 azure/azure-iot-sdk-csharp
 azure/azure-sdk-for-c
 azure/azure-sdk-for-js
-azure/azure-sdk-for-net
 azure-samples/azure-iot-samples-node
+azure/iot-plugandplay-models
